@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is an example of a components library",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "live-server": "^1.2.1",
     "vuepress": "^0.14.11"

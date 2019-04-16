@@ -12,6 +12,13 @@ module.exports = {
       '/components/': getComponentsSidebar(),
     },
   },
+  head: [
+    [
+      'script', {
+      src: 'https://unpkg.com/@alex-arriaga/stencil-webtraining-components@0.0.2/dist/webtraining-components-demo.js',
+    },
+    ],
+  ],
 };
 
 function getComponentsSidebar() {
@@ -23,6 +30,7 @@ function getComponentsSidebar() {
         // '',
         'Cards',
         'FancyImage',
+        'CountriesFinder',
       ],
     },
   ];
