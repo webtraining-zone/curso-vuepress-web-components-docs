@@ -12,8 +12,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev",
+    "start": "npm run dev",
     "build": "vuepress build",
-    "serve": "live-server .vuepress/dist/ --entry-file=index.html"
+    "serve": "npm run build && live-server .vuepress/dist/ --entry-file=index.html"
   },
   "keywords": [],
   "author": "",
