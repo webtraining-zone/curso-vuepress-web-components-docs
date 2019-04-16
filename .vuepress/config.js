@@ -8,5 +8,22 @@ module.exports = {
       {text: 'Components', link: '/components/'},
       {text: 'Webtraining', link: 'https://webtraining.zone'},
     ],
+    sidebar: {
+      '/components/': getComponentsSidebar(),
+    },
   },
 };
+
+function getComponentsSidebar() {
+  return [
+    {
+      title: 'Components',
+      collapsable: false,
+      children: [
+        // '',
+        'Cards',
+        'FancyImage',
+      ],
+    },
+  ];
+}
