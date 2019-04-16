@@ -5,12 +5,14 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "live-server": "^1.2.1",
     "vuepress": "^0.14.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "serve": "live-server .vuepress/dist/ --entry-file=index.html"
   },
   "keywords": [],
   "author": "",
